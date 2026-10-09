@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug pytest",
+      "type": "python",
+      "request": "launch",
+      "module": "pytest",
+      "args": ["script/test02_approve_trust.py", "-s", "-v"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    }
+  ]
+}
